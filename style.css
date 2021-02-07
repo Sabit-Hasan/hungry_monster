@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list{
+    font-size: 16px;
+    font-weight: 500;
+}
+.search-container{
+    width: 40%;
+}
+
+.search-input{
+    margin: 0 !important;
+    
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    box-shadow: none;
+}
+
+.button{
+    background-color: tomato;
+    color: white;
+    border: 0;
+    font-weight: 600;
+}
+.button:hover{
+    color: white;
+    background-color: gainsboro;
+}
+
+#cards{
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+}
