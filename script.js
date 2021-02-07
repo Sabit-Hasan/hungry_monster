@@ -30,7 +30,6 @@ const searchItem = data => {
     .then(data =>searchMeal(data));
 };
 
-
 const searchMeal = data =>{
     if(data.meals != null ){
     (function() {
