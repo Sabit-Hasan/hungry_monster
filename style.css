@@ -32,10 +32,7 @@
     background-color: gainsboro;
 }
 
-#cards{
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px; */
+#search-card{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
